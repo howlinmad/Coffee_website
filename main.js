@@ -6,11 +6,10 @@ $(document).ready(function() {
             .prependTo(iList);    
 
     var myImage = $('.imageSlide');
-    var imageArray = ["assets/images/insight-coffee-roasters.jpg","assets/images/naked-coffee.jpg"];
-    var imageIndex = 0;
+    var imageArray = ["assets/images/insight-coffee-roasters.jpg","assets/images/Old-Soul-PO-15.jpg","assets/images/insight-coffee-roasters-898312.jpg","assets/images/OldSoul-web.jpg"];
+    var imageIndex = 0;    
     
     
-    // this works but isn't animated
     function changeImage() {
         myImage.attr('src', imageArray[imageIndex]);
         myImage.attr('width', '730px');
@@ -20,6 +19,7 @@ $(document).ready(function() {
             imageIndex = 0;
         }
     }
+    changeImage();
     setInterval(changeImage, 3000);
     
     
