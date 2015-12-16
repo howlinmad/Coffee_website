@@ -76,7 +76,31 @@
             <a href="http://www.freecodecamp.com/howlinmad" class="btn btn-default btn-lg btn-responsive" target="_blank"><i class="fa fa-fire fa-fw"></i><span class="social-media-text">freeCodeCamp</span></a>           
           </div>
         </div>       
-        <script type="text/javascript" src="main.js"></script>
+        <script>
+            $(document).ready(function() {
+        
+                var iList = $('div.main-content')
+                    var li = $('<img>')
+                        .addClass('imageSlide')
+                        .prependTo(iList);    
+
+                var myImage = $('.imageSlide');
+                var imageArray = ["assets/images/insight-coffee-roasters.jpg","assets/images/Old-Soul-PO-15.jpg","assets/images/insight-coffee-roasters-898312.jpg","assets/images/OldSoul-web.jpg"];
+                var imageIndex = 0;    
+
+                function changeImage() {
+                    myImage.attr('src', imageArray[imageIndex]);
+                    myImage.attr('width', '730px');
+                    myImage.attr('height', '450px');
+                    imageIndex++
+                    if(imageIndex >= imageArray.length) {
+                        imageIndex = 0;
+                    }
+                }
+                changeImage();
+                setInterval(changeImage, 3000);
+            });
+        </script>
         <script type="text/javascript" src='bootstrap-3.3.5-dist/js/bootstrap.min.js'></script>
     </footer>
     </div>
