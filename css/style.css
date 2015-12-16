@@ -1,0 +1,135 @@
+header {  
+    background-color: white;
+    border-radius: 5px;
+    height: 115px;
+    margin-top: 1%;
+    
+}
+
+
+.bg {    
+    background: url(../assets/images/coffeehouseBackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header-tagline {
+    margin-top: 0;
+}
+
+.coffee-logo-box {
+    width: 8%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-right: 0;
+}
+.nav-box {
+    padding-left: 3%;
+    margin-top: 2%;
+}
+.nav-text {    
+   
+}
+.nav-text li {
+    font-size: 2em;
+    border-bottom: 1px solid grey;
+}
+.nav-text li:last-of-type {
+    border-bottom: none;
+}
+.nav-text li a {
+    margin-left: 5%;
+}
+.main-box {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background: url(../assets/images/coffeehouseBackground.jpg);
+    height: 600px;
+    border-radius: 5px;
+    
+}
+.main-content {
+    background-color: rgba(255,255,255,0.6);
+    margin-top: 1%;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 1.2em;    
+}
+
+footer {    
+    background-color: white;
+    border-radius: 5px;
+    height: 110px;
+    margin-top: 2%;
+}
+
+.button-containers {
+    margin-left: 10%;    
+    margin-top: 2%;
+    font-family: "Times New Roman", times, serif;  
+}
+.button-containers a {
+    border: 2px solid #e6e6e6;
+    box-shadow: 3px 3px 3px rgba(230, 230, 230, 0.5);
+    margin: auto 5%;
+}
+
+
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {      
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+    header {
+        display: none;        
+    }
+    .nav-box {
+        padding: 0;
+        margin: 0;
+    }
+    .nav-text li {
+        font-size: 1.5em;
+    } 
+    footer {
+        height: auto;
+        background-color: transparent;        
+    }
+    .button-containers {
+        margin-left: 10%;
+    }
+    .button-containers a {
+        margin: auto;
+    }
+    .btn-responsive {
+        padding: inherit;
+        font-size: inherit;
+        line-height: inherit;        
+    }
+}
+
+
+

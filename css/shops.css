@@ -1,0 +1,94 @@
+/* Shops Style Page */
+.horizontal-nav {
+    margin-top: 1%;
+    background-color: white;
+}
+.nav-list {
+    width: 100%;    
+    font-size: 1.5em;
+}
+.nav-item {   
+    text-align: center;         
+}
+
+.about-box {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 2%;    
+    margin-right: 1%;    
+    font-size: 1.25em;
+    line-height: 1.5em;
+    
+}
+.about-box p {
+    font-weight: 200;
+}
+
+.main-box {
+    background: url(../assets/images/Temple-Coffee-Roasters-Downtown-Sacramento.jpg) no-repeat center center fixed;
+    height: 450px;
+    width: 65.5%;
+}
+.hours-location-box {
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+    width: 99%;
+    margin-top: 2%;        
+    padding: 1% 1%;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+.locations-list, .locations-list ul {
+    list-style-type: none;
+    margin: auto 0;
+}
+.location-title a{
+    color: saddlebrown;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+/*Insight main content*/
+.insight-main-box {
+    background: url(../assets/images/insight-coffee-roasters.jpg) no-repeat center center fixed;
+    height: 440px;
+    width: 55%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+.insight-footer {
+    margin-top: 2%;
+}
+/* oldsoul main content */
+.oldsoul-main-box {
+    background: url(../assets/images/Old-Soul-PO-15.jpg) no-repeat center center;
+    height: 350px;
+    width: 55%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+.oldsoul-footer {
+    margin-top: 2%;
+}
+/* naked main content */
+.naked-main-box {
+    background: url(../assets/images/naked-coffee.jpg) no-repeat center center;
+    height: 350px;
+    width: 55%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+.naked-about-box {
+    background-color: white;
+    border-radius: 5px;    
+    margin-top: 2%;    
+    margin-right: 1%;    
+    font-size: 1.1em;
+    line-height: 1.5em;    
+}
+
